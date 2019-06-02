@@ -14,16 +14,16 @@ class MyApp extends StatelessWidget {
         secondaryHeaderColor: Color(0xfff9aa33),
         primaryColorDark: Color(0xff232f34),
         primaryColorLight: Color(0xff4a6572),
-        scaffoldBackgroundColor: Color(0xff344955),
+        scaffoldBackgroundColor: Colors.white,
         primaryTextTheme: TextTheme(),
         cardTheme: CardTheme(
-          color: Color(0xff232f34),
+          color: Colors.white,
         ),
         textTheme: TextTheme(
           body1: TextStyle(color: Colors.grey,fontSize: 14),
           caption : TextStyle(color: Colors.grey, fontWeight: FontWeight
               .normal),
-          subhead: TextStyle(color: Color(0xfff9aa33),fontSize: 24,
+          subhead: TextStyle(color: Colors.black12,fontSize: 18,
             fontWeight: FontWeight.bold,),
           )
 

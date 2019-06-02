@@ -6,7 +6,7 @@ class Country{
   final List callingCodes;
   final String capital;
   final List altSpellings;
-  final  String region;
+  final String region;
   final String subregion;
   final int population;
   final List latlng;
